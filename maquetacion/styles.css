@@ -26,7 +26,29 @@ button {
 div#navbar-left img {
     width: 8em;
 }
+#container-titleh1 {
+    text-align: center;
+}
+#titleh1 {
+    margin: 0 auto;
+    max-width: 650px;
+    display: flex;
+    text-align: center;
+}
+.blue-button {
+    border: 2px solid blue;
+    color: blue;
+    margin-right: 10px;
+}
+.black-button {
+    width: 12em;
+    margin-right: 10px;
+}
+#titleh1-button {
 
+    display: flex;
+    justify-content: center;
+}
 @media (width >= 2500px) {
     html {
         font-size: 28px;
